@@ -1,0 +1,60 @@
+{
+  "stringTable": {
+    "0": "C:/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/universalRelease/x86",
+    "1": "--target=i686-none-linux-android23 --gcc-toolchain=C:/Users/kangse/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/kangse/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dhello_jni_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\AssimpAndroid-master\\HelloJNI\\app\\src\\main\\jni\\CMakeLists.txt",
+    "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AssimpAndroid-master\\HelloJNI\\app\\.cxx\\cmake\\universalRelease\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\AssimpAndroid-master\\HelloJNI\\app\\.cxx\\cmake\\universalRelease\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hello-jni-Release-x86": {
+      "buildCommand": "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AssimpAndroid-master\\HelloJNI\\app\\.cxx\\cmake\\universalRelease\\x86\" hello-jni",
+      "buildType": "release",
+      "toolchain": "1613744704",
+      "abi": "x86",
+      "artifactName": "hello-jni",
+      "files": [
+        {
+          "src": "C:\\AssimpAndroid-master\\HelloJNI\\app\\src\\main\\jni\\jniCalls\\assimpActivity.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AssimpAndroid-master\\HelloJNI\\app\\src\\main\\jni\\jniCalls\\gestureClass.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AssimpAndroid-master\\HelloJNI\\app\\src\\main\\jni\\jniCalls\\myGLRenderer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AssimpAndroid-master\\HelloJNI\\app\\src\\main\\jni\\hello-jni.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\AssimpAndroid-master\\HelloJNI\\app\\build\\intermediates\\cmake\\universalRelease\\obj\\x86\\libhello-jni.so"
+    }
+  },
+  "toolchains": {
+    "1613744704": {
+      "cCompilerExecutable": "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

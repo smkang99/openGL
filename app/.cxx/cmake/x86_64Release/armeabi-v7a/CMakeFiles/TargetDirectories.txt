@@ -1,0 +1,7 @@
+/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/x86_64Release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/x86_64Release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/x86_64Release/armeabi-v7a/CMakeFiles/hello-jni.dir
+/home/sam/AssimpAndroid-master/HelloJNI/common/ndkHelperBin/Release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/sam/AssimpAndroid-master/HelloJNI/common/ndkHelperBin/Release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/sam/AssimpAndroid-master/HelloJNI/common/ndkHelperBin/Release/armeabi-v7a/CMakeFiles/NdkHelper.dir
+/home/sam/AssimpAndroid-master/HelloJNI/common/ndkHelperBin/Release/armeabi-v7a/CMakeFiles/native_app_glue.dir

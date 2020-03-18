@@ -1,0 +1,21 @@
+Executable : /home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni
+-DCMAKE_CXX_FLAGS=-I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/modelAssimp -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/glm-0.9.7.5 -std=c++11 -Wall -fno-exceptions -fno-rtti -lstdc++ -lEGL
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_TOOLCHAIN_FILE=/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/arm7Release/armeabi-v7a/pre-ndk-r15-wrapper-android.toolchain.cmake
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_NDK=/home/sam/android-ndk-r13b
+-DANDROID_PLATFORM=android-23
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DCMAKE_ANDROID_NDK=/home/sam/android-ndk-r13b
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/sam/AssimpAndroid-master/HelloJNI/app/build/intermediates/cmake/arm7Release/obj/armeabi-v7a
+-DCMAKE_MAKE_PROGRAM=/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=23
+-B/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/arm7Release/armeabi-v7a
+-GNinja
+jvmArgs : 
+
+Build command args:

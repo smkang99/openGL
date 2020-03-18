@@ -1,0 +1,173 @@
+{
+  "stringTable": {
+    "0": "/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/x86_64Debug/x86_64",
+    "1": "-target x86_64-none-linux-android -gcc-toolchain /home/sam/android-ndk-r13b/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r13b/platforms/android-23/arch-x86_64 -Dhello_jni_EXPORTS -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/assimp-3.0/include -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/modelAssimp -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/opencv-3.0.0/include -I/home/sam/android-ndk-r13b/sources/android/native_app_glue -I/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/modelAssimp -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/glm-0.9.7.5 -std=c++11 -Wall -fno-exceptions -fno-rtti -lstdc++ -lEGL -O0 -fno-limit-debug-info -fPIC",
+    "2": "-target x86_64-none-linux-android -gcc-toolchain /home/sam/android-ndk-r13b/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r13b/platforms/android-23/arch-x86_64 -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/assimp-3.0/include -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/modelAssimp -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/opencv-3.0.0/include -I/home/sam/android-ndk-r13b/sources/android/native_app_glue -I/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/sam/android-ndk-r13b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/modelAssimp -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/glm-0.9.7.5 -std=c++11 -Wall -fno-exceptions -fno-rtti -lstdc++ -lEGL -O0 -fno-limit-debug-info -fPIC",
+    "3": "-target x86_64-none-linux-android -gcc-toolchain /home/sam/android-ndk-r13b/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/sam/android-ndk-r13b/platforms/android-23/arch-x86_64 -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/assimp-3.0/include -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/modelAssimp -I/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/opencv-3.0.0/include -I/home/sam/android-ndk-r13b/sources/android/native_app_glue -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper/CMakeLists.txt",
+    "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/opencv-3.0.0/sdk/native/jni/OpenCVModules_x86_64-release.cmake",
+    "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/opencv-3.0.0/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/home/sam/android-ndk-r13b/build/cmake/android.toolchain.cmake",
+    "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/opencv-3.0.0/sdk/native/jni/OpenCVConfig.cmake",
+    "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/CMakeLists.txt",
+    "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/externals/opencv-3.0.0/sdk/native/jni/OpenCVModules_x86_64.cmake"
+  ],
+  "cleanCommands": [
+    "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/x86_64Debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/x86_64Debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native_app_glue-Debug-x86_64": {
+      "buildCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/x86_64Debug/x86_64\" native_app_glue",
+      "buildType": "debug",
+      "toolchain": "1684051040",
+      "abi": "x86_64",
+      "artifactName": "native_app_glue",
+      "files": [
+        {
+          "src": "/home/sam/android-ndk-r13b/sources/android/native_app_glue/android_native_app_glue.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndkHelperBin/Debug/x86_64/libnative_app_glue.a"
+    },
+    "NdkHelper-Debug-x86_64": {
+      "buildCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/x86_64Debug/x86_64\" NdkHelper",
+      "buildType": "debug",
+      "toolchain": "1684051040",
+      "abi": "x86_64",
+      "artifactName": "NdkHelper",
+      "files": [
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper/gestureDetector.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper/gl3stub.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper/GLContext.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper/interpolator.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper/JNIHelper.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper/perfMonitor.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper/sensorManager.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper/shader.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper/tapCamera.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndk_helper/vecmath.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/sam/AssimpAndroid-master/HelloJNI/common/ndkHelperBin/Debug/x86_64/libNdkHelper.a"
+    },
+    "hello-jni-Debug-x86_64": {
+      "buildCommand": "/home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/x86_64Debug/x86_64\" hello-jni",
+      "buildType": "debug",
+      "toolchain": "1684051040",
+      "abi": "x86_64",
+      "artifactName": "hello-jni",
+      "files": [
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/jniCalls/assimpActivity.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/jniCalls/gestureClass.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/jniCalls/myGLRenderer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/modelAssimp/modelAssimp.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common/assimpLoader.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common/misc.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common/myGLCamera.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common/myGLFunctions.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common/myJNIHelper.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/sam/AssimpAndroid-master/HelloJNI/app/src/main/jni/nativeCode/common/myShader.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/sam/AssimpAndroid-master/HelloJNI/app/build/intermediates/cmake/x86_64Debug/obj/x86_64/libhello-jni.so"
+    }
+  },
+  "toolchains": {
+    "1684051040": {
+      "cCompilerExecutable": "/home/sam/android-ndk-r13b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/sam/android-ndk-r13b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

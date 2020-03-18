@@ -1,0 +1,80 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId 'com.example.hellojni'
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        ndk {
+            moduleName = 'ModelAssimpNative'
+            // this creates libModelAssimpNative.so and should be loaded in Java
+            stl = 'c++_shared'
+            abiFilters 'armeabi-v7a'
+        }
+        externalNativeBuild {
+            cmake {
+                cppFlags "-I${file("src/main/jni/nativeCode/modelAssimp")}".toString(), "-I${file("src/main/jni/nativeCode/common")}".toString(), "-I${file("src/main/externals/glm-0.9.7.5")}".toString()
+                cppFlags.addAll(['-std=c++11', '-Wall', '-fno-exceptions', '-fno-rtti','-lstdc++', '-lEGL'])
+                //ldLibs.addAll(['android', 'log', 'EGL', 'GLESv2', "stdc++"])
+            }
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            version '3.10.2'
+            path "src/main/jni/CMakeLists.txt"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                    'proguard-rules.pro'
+        }
+    }
+
+
+    flavorDimensions 'cpuArch'
+    productFlavors {
+        arm7 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilter 'armeabi-v7a'
+            }
+        }
+        arm8 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilters 'arm64-v8a'
+            }
+        }
+        x86 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilter 'x86'
+            }
+        }
+        x86_64 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilter 'x86_64'
+            }
+        }
+        universal {
+            dimension 'cpuArch'
+            // include all default ABIs. with NDK-r16,  it is:
+            //   armeabi-v7a, arm64-v8a, x86, x86_64
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+}
+

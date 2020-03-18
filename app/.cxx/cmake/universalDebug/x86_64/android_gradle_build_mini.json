@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\AssimpAndroid-master\\HelloJNI\\app\\src\\main\\jni\\CMakeLists.txt",
+    "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AssimpAndroid-master\\HelloJNI\\app\\.cxx\\cmake\\universalDebug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\AssimpAndroid-master\\HelloJNI\\app\\.cxx\\cmake\\universalDebug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hello-jni-Debug-x86_64": {
+      "artifactName": "hello-jni",
+      "buildCommand": "C:\\Users\\kangse\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AssimpAndroid-master\\HelloJNI\\app\\.cxx\\cmake\\universalDebug\\x86_64\" hello-jni",
+      "abi": "x86_64",
+      "output": "C:\\AssimpAndroid-master\\HelloJNI\\app\\build\\intermediates\\cmake\\universalDebug\\obj\\x86_64\\libhello-jni.so"
+    }
+  }
+}
