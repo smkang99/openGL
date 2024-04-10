@@ -1,0 +1,2 @@
+C:\Users\smokan287\Documents\openGL\app\src\main\jni\CMakeLists.txt
+C:\Users\smokan287\Documents\openGL\common\ndk_helper\CMakeLists.txt

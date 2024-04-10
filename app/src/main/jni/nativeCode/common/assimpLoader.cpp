@@ -17,7 +17,7 @@
 #include "assimpLoader.h"
 #include "myShader.h"
 #include "misc.h"
-#include "../../../../../../../../android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/GLES/gl.h"
+//#include "../../../../../../../../android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/GLES/gl.h"
 #include <opencv2/opencv.hpp>
 #include <GLES/gl.h>
 

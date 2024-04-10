@@ -1,0 +1,25 @@
+# ninja log v5
+49	847	734416831	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/native_app_glue.dir/C_/Users/smokan287/AppData/Local/Android/Sdk/ndk/16.1.4479499/sources/android/native_app_glue/android_native_app_glue.c.o	50a572294a5a5614
+31	980	734416831	CMakeFiles/hello-jni.dir/nativeCode/common/misc.cpp.o	cac7178198877638
+35	1112	734416832	CMakeFiles/hello-jni.dir/nativeCode/common/myGLCamera.cpp.o	fba11ec4e3365c2d
+40	1241	734416832	CMakeFiles/hello-jni.dir/nativeCode/common/myJNIHelper.cpp.o	c66ae9cbf9942771
+1	1456	734416832	CMakeFiles/hello-jni.dir/jniCalls/gestureClass.cpp.o	923e25b4018b5e6
+6	1475	734416832	CMakeFiles/hello-jni.dir/jniCalls/assimpActivity.cpp.o	b6db126c39bf0613
+14	1528	734416832	CMakeFiles/hello-jni.dir/jniCalls/myGLRenderer.cpp.o	2c322d0efee7be70
+24	1855	734416832	CMakeFiles/hello-jni.dir/nativeCode/modelAssimp/modelAssimp.cpp.o	52b80f202ef23f34
+10	2026	734416833	CMakeFiles/hello-jni.dir/nativeCode/common/assimpLoader.cpp.o	a4dfd89e98043a35
+22	649	734416912	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/NdkHelper.dir/gl3stub.cpp.o	7bceaf6331c5b2c5
+5	655	734416912	CMakeFiles/hello-jni.dir/nativeCode/common/myGLFunctions.cpp.o	2a610ba1d0ffd8e6
+14	810	734416913	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/NdkHelper.dir/GLContext.cpp.o	af8245ee13cc5f43
+52	993	734416913	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/NdkHelper.dir/sensorManager.cpp.o	f3061fd0645bd782
+9	1001	734416913	CMakeFiles/hello-jni.dir/nativeCode/common/myShader.cpp.o	c8f60759f01ccef1
+32	1002	734416913	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/libnative_app_glue.a	a5db01fcde9d2c70
+47	1003	734416913	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/NdkHelper.dir/perfMonitor.cpp.o	b6d31f15470717d8
+18	1004	734416913	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/NdkHelper.dir/interpolator.cpp.o	2d9f11c751ddec96
+28	1069	734416913	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/NdkHelper.dir/gestureDetector.cpp.o	7cd1585fafb135a7
+649	1266	734416913	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/NdkHelper.dir/vecmath.cpp.o	7ab6107b7e5f455
+40	1392	734416913	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/NdkHelper.dir/JNIHelper.cpp.o	1fdf912d78c79ecc
+656	1413	734416913	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/NdkHelper.dir/shader.cpp.o	369821dd8f51885b
+810	1469	734416913	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/NdkHelper.dir/tapCamera.cpp.o	5fa9d70d2f29f84
+1470	1553	734416913	C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/libNdkHelper.a	89ea2f59f8cc16e6
+1553	2092	734416914	C:/Users/smokan287/Documents/openGL/app/build/intermediates/cxx/Debug/1v66q4l6/obj/armeabi-v7a/libhello-jni.so	a8255883f5853001

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloJNI.iml" filepath="$PROJECT_DIR$/HelloJNI.iml" group="HelloJNI" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="HelloJNI/app" />
-      <module fileurl="file://$PROJECT_DIR$/native-plasma/native-plasma.iml" filepath="$PROJECT_DIR$/native-plasma/native-plasma.iml" group="HelloJNI/native-plasma" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openGL.iml" filepath="$PROJECT_DIR$/.idea/modules/openGL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/openGL.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/openGL.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/openGL.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/openGL.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/openGL.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/openGL.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/openGL.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/openGL.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/native-plasma/openGL.native-plasma.iml" filepath="$PROJECT_DIR$/.idea/modules/native-plasma/openGL.native-plasma.iml" />
     </modules>
   </component>
 </project>

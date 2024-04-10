@@ -1,0 +1,7 @@
+C:/Users/smokan287/Documents/openGL/app/.cxx/Debug/1v66q4l6/armeabi-v7a/CMakeFiles/hello-jni.dir
+C:/Users/smokan287/Documents/openGL/app/.cxx/Debug/1v66q4l6/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/smokan287/Documents/openGL/app/.cxx/Debug/1v66q4l6/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/native_app_glue.dir
+C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/NdkHelper.dir
+C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/smokan287/Documents/openGL/common/ndkHelperBin/Debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

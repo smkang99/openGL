@@ -1,7 +1,0 @@
-C:/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/universalDebug/x86/CMakeFiles/hello-jni.dir
-C:/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/universalDebug/x86/CMakeFiles/edit_cache.dir
-C:/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/universalDebug/x86/CMakeFiles/rebuild_cache.dir
-C:/AssimpAndroid-master/HelloJNI/common/ndkHelperBin/Debug/x86/CMakeFiles/native_app_glue.dir
-C:/AssimpAndroid-master/HelloJNI/common/ndkHelperBin/Debug/x86/CMakeFiles/NdkHelper.dir
-C:/AssimpAndroid-master/HelloJNI/common/ndkHelperBin/Debug/x86/CMakeFiles/edit_cache.dir
-C:/AssimpAndroid-master/HelloJNI/common/ndkHelperBin/Debug/x86/CMakeFiles/rebuild_cache.dir

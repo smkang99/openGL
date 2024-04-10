@@ -1,7 +1,0 @@
-Executable : /home/sam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
-arguments : 
--C
-/home/sam/AssimpAndroid-master/HelloJNI/app/.cxx/cmake/arm7Debug/armeabi-v7a
-hello-jni
-jvmArgs : 
-

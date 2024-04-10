@@ -17,7 +17,7 @@
 #include "myGLFunctions.h"
 #include <sstream>
 #include "myLogger.h"
-
+#include <string.h>
 /**
  * Basic initializations for GL.
  */
